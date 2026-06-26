@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form>
+        <fieldset>         
+            <legend>Personal Details</legend>
+            <label>First Name:</label>
+            <input type="text" id="fname" name="name" value="Justine">
+            <br><br>
+            
+            <label>Last Name:</label>
+            <input type="text" id="lname" name="name" value="Dotson">
+            <br><br>
+            
+            <label>Age:</label>
+            <input type="number" id="age" name="age" value="41">
+            <br><br>
+            
+            <label>Gender:</label>
+            <select id="gender" name="gender">
+                <option selected>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <br><br>
+            
+            <label>Profile Picture:</label>
+            <input type="file" id="photo" name="photo"><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Details</legend>
+            <label>Email:</label>
+            <input type="email" id="email" name="email" value="buzepi@mailinator.com">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" id="password" name="password" value="999999999">
+            <br><br>
+
+            <label>Role:</label>
+            <input type="radio" id="admin" name="role">
+            <label>Admin</label>
+
+            <input type="radio" id="user" name="role" checked>
+            <label>User</label>
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" id="terms" checked>
+        <label>I agree to the terms and conditions</label>
+
+        <br>
+
+        <input type="submit" id="register" name="register" value="Register">
+        <input type="reset" id="reset" name="reset">
+    </form>
+    <br>
+    <footer>
+        &copy; 2024 My Todo List. All rights reserved.
+    </footer>
+</body>
+</html>
